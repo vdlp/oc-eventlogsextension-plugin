@@ -1,0 +1,28 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+scopes:
+
+    exclude_level:
+        label: Exclude level
+        type: group
+        options:
+            debug: Debug
+            info: Info
+            notice: Notice
+            warning: Warning
+            error: Error
+            critical: Critical
+            alert: Alert
+            emergency: Emergency
+        conditions: level not in (:filtered)
+
+    level:
+        label: Show errors only
+        type: checkbox
+        conditions: level in ('error', 'critical', 'alert', 'emergency')
+
+    period:
+        label: Period
+        type: daterange
+        conditions: created_at >= ':after' AND created_at <= ':before'

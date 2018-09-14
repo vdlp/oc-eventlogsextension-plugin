@@ -1,0 +1,17 @@
+{
+    "name": "vdlp/oc-eventlogsextension-plugin",
+    "description": "October CMS plugin which improves the event logs view",
+    "type": "october-plugin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Van der Let & Partners",
+            "email": "octobercms@vdlp.nl"
+        },
+        {
+            "name": "Alwin Drenth",
+            "email": "adrenth@gmail.com"
+        }
+    ],
+    "require": {}
+}
