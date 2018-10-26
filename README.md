@@ -7,7 +7,7 @@ This plugin is an extension of the October CMS Event logs section. This plugin w
 In upcoming releases we will be focusing on:
 
 * Improve search and filtering logic.
-* Improve performance (searching through large is slow).
+* Improve performance (searching through a large event logs is slow).
 * Different views
 * And more...
 
