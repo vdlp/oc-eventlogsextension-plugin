@@ -19,7 +19,7 @@ class ListInjectRowClass
      * @param mixed $record
      * @return string
      */
-    public function handle(Lists $widget, $record): string
+    public function handle(Lists $widget, $record)
     {
         if ($record instanceof EventLog) {
             switch (strtolower($record->level)) {
@@ -38,7 +38,5 @@ class ListInjectRowClass
                     return 'important';
             }
         }
-
-        return '';
     }
 }
