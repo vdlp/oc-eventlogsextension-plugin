@@ -9,5 +9,8 @@
             "email": "octobercms@vdlp.nl"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.1||^8.0",
+        "composer/installers": "^1.0"
+    }
 }

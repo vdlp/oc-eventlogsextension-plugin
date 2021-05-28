@@ -1,3 +1,4 @@
 1.0.0: First version of Vdlp.EventLogsExtension
 1.0.1: Update plugin LICENSE
 1.0.2: Fix issue with ListView row colors (resolves conflicts with other plugins)
+1.0.3: Update plugin dependencies
