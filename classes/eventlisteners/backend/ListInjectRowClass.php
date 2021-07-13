@@ -7,12 +7,7 @@ namespace Vdlp\EventLogsExtension\Classes\EventListeners\Backend;
 use Backend\Widgets\Lists;
 use System\Models\EventLog;
 
-/**
- * Class ListInjectRowClass
- *
- * @package Vdlp\EventLogsExtension\Classes\EventListeners\Backend
- */
-class ListInjectRowClass
+final class ListInjectRowClass
 {
     /**
      * @param Lists $widget
@@ -22,7 +17,7 @@ class ListInjectRowClass
     public function handle(Lists $widget, $record)
     {
         if ($record instanceof EventLog) {
-            switch (strtolower($record->level)) {
+            switch (strtolower($record->getAttribute('level'))) {
                 case 'debug':
                     return 'safe';
                 case 'info':

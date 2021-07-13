@@ -1,6 +1,6 @@
 {
     "name": "vdlp/oc-eventlogsextension-plugin",
-    "description": "October CMS plugin which improves the event logs view",
+    "description": "Improves the October CMS Event Logs view.",
     "type": "october-plugin",
     "license": "GPL-2.0",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1||^8.0",
+        "php": "^7.4 || ^8.0",
         "composer/installers": "^1.0"
     }
 }
