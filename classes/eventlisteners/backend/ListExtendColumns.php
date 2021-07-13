@@ -7,17 +7,9 @@ namespace Vdlp\EventLogsExtension\Classes\EventListeners\Backend;
 use Backend\Widgets\Lists;
 use System\Models\EventLog;
 
-/**
- * Class ListExtendColumns
- *
- * @package Vdlp\EventLogsExtension\Classes\EventListeners\Backend
- */
-class ListExtendColumns
+final class ListExtendColumns
 {
-    /**
-     * @param Lists $widget
-     */
-    public function handle(Lists $widget)
+    public function handle(Lists $widget): void
     {
         if ($widget->model instanceof EventLog) {
             $widget->addColumns([
