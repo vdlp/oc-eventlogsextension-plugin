@@ -16,4 +16,8 @@ toolbar:
     search:
         prompt: backend::lang.list.search_prompt
 
+defaultSort:
+    column: id
+    direction: desc
+
 filter: $/vdlp/eventlogsextension/controllers/eventlogs/config_filter.yaml
