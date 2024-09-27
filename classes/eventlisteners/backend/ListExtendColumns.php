@@ -14,15 +14,15 @@ final class ListExtendColumns
         if ($widget->model instanceof EventLog) {
             $widget->addColumns([
                 'created_at' => [
-                    'label' => 'system::lang.event_log.created_at',
+                    'label' => 'vdlp.eventlogsextension::lang.page.created_at',
                     'searchable' => true,
                     'width' => '180px',
                     'type' => 'datetime',
-                    'format' => 'Y-m-d H:i:s'
+                    'format' => 'Y-m-d H:i:s',
                 ],
                 'level' => [
                     'label' => 'Level',
-                ]
+                ],
             ]);
         }
     }

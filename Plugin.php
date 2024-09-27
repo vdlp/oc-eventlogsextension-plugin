@@ -15,8 +15,8 @@ final class Plugin extends PluginBase
     public function pluginDetails(): array
     {
         return [
-            'name' => 'Event Logs Extension',
-            'description' => 'Improves the Event Logs view.',
+            'name' => 'vdlp.eventlogsextension::lang.plugin.name',
+            'description' => 'vdlp.eventlogsextension::lang.plugin.description',
             'author' => 'Van der Let & Partners',
             'icon' => 'icon-leaf',
         ];
