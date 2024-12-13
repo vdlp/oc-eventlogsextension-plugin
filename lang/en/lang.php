@@ -9,6 +9,6 @@ return [
     ],
     'page' => [
         'title' => 'Event Log',
-        'created_at' => 'Created at',
+        'created_at' => 'Created At',
     ],
 ];
